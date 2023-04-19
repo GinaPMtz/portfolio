@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header{
+    background-color: #FDFF85;
+    text-align: left;
+    padding: 200px;
+}
+
+.pages{
+    background-color: #FDFF85;
+    text-align: left;
+    padding: 100px;
+}
+
+/* how to put image on right*/
+header img{
+    display: flex;
+    align-items:flex-end;
+}
+
+.welcome{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.welcome img{
+    width:100%;
+}
+
+ul.horizontal-list li{
+    display: flex;
+    list-style:none;
+    display: inline-block;
+    padding:6px;
+    text-align: right;
+}
+
+h1,h2,h3, ul, p {
+    font-family: 'Playfair Display', serif;
+}
+
+/*h1{
+   padding: 20px; 
+   text-align:center
+}*/
+
+nav{
+    display:flex;
+    justify-content:flex-start;
+}
+
+ul a{
+    color: #011936;
+    text-decoration: none;
+ }
+
+ #about{
+    display:flex;
+    flex-direction: column;
+    justify-content:left;
+    padding: 125px;
+    text-align: center;
+ }
+
+ #contact{
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: center;
+}
+
+.contact-details{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 4px solid #FDFF85;
+    padding: 30px;
+    height: 50vh;
+}
+
+footer{
+    background-color: #FDFF85;
+    padding: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+main{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15px;
+    row-gap: 10px;
+}
+
+.card1, .card2, .card3{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 45px;
+    row-gap: 10px;
+    border: 4px solid #FDFF85;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 5%;
+}
+
+.card1 img{
+    width:100%;
+}
+
+.card2 img{
+    width:100%; 
+}
