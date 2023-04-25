@@ -198,10 +198,14 @@ button {
     justify-content: center;
     align-items: center;
     position: relative;
-    top: -20vw;
+    top: -40vw;
     width: 40px;
     height: 40px;
     margin-bottom: -20px;
+}
+
+.fa-solid{
+    font-size:30px;
 }
 
 .back {

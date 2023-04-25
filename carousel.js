@@ -13,7 +13,7 @@ function showImage() {
     console.log('Show image');
     console.log(idx);
     document.querySelector('.current-photo').innerHTML= `<img src='${photos[idx]}'/>`;
-    document.querySelector('.caption').innerHTML= `<p> Image ${idx+1} of 10 </p> `;
+    document.querySelector('.caption').innerHTML= `<p> Image ${idx+1} of 7 </p> `;
 }
 
 function forward() {
